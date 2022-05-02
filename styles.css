@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+
+#content {
+  width: 80vw;
+  margin: auto;
+  color: white;
+  font-family: League Spartan, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+}
+
+#landing-page {
+  height: 100vh;
+  position: relative;
+}
+
+#landing-page-content {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#second-page {
+  margin-top: 20vh;
+}
+
+.lower-page {
+  margin-top: 50vh;
+}
+
+#bottom-page {
+  height: 80vh;
+}
+
+.gif {
+  margin-left: 10vw;
+  width: 60vw;
+  border-radius: 15px;
+}
+
+.gif-title {
+  text-align: center;
+  display: block;
+  width: 80vw;
+  margin-bottom: 10px;
+}
+
+.lower-gif-title {
+  margin-top: 5vh;
+}
+
+.link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: yellow;
+}
